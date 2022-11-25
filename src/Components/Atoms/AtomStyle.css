@@ -1,0 +1,50 @@
+/* Btn */
+.btn {
+  border-radius: 50px;
+  padding: 14px 0;
+  width: 160px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: 'Poppins SemiBold';
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+
+/* highlighted btn */
+
+.highlighted-btn {
+  color: var(--white);
+  font-size: 12px;
+  background: var(--light-blue-gradient);
+}
+
+@media only screen and (max-width: 568px) {
+  .highlighted-btn {
+    z-index: -900;
+  }
+}
+
+/* Primary btn */
+
+.primary-btn {
+  color: var(--white);
+  border: 2px solid linen;
+  font-size: 12px;
+  background-color: #0f172a;
+}
+.primary-btn:hover {
+  color: aliceblue;
+  border: 2px solid #38bdf8;
+  background-color: #0f172a;
+}
+
+/* Item */
+
+.item {
+  width: 200px;
+  height: 200px;
+  border: 30px solid var(--dark-blue);
+  border-radius: 100%;
+}

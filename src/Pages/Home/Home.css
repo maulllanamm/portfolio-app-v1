@@ -1,0 +1,15 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 670px;
+  /* background-color: #10172a; */
+  background-image: url('../../Assets/Image/bg.jpg');
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  border: 30px solid var(--dark-blue);
+  border-radius: 100%;
+}
