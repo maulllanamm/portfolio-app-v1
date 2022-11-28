@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 function Card({ title, position, date }) {
   return (
     <div className="card">
-      <CodeSlash size={96} />
+      <CodeSlash size={72} />
       <h3>{title}</h3>
       <p>{position}</p>
       <p>{date}</p>

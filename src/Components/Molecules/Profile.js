@@ -1,9 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ButtonPrimary from '../Atoms/ButtonPrimary';
 import ButtonHighlighted from '../Atoms/ButtonHighlited';
+import Typed from 'typed.js';
 import './Molecules.css';
 
 export default function Profile() {
+  // Create reference to store the DOM element containing the animation
+  const el = React.useRef(null);
+  // Create reference to store the Typed instance itself
+  const typed = React.useRef(null);
+
+  useEffect(() => {
+    const options = {
+      strings: [
+        'Web Developer 🔥',
+        'Frontend Developer 💻',
+        'Backend Developer 🌐',
+      ],
+      typeSpeed: 100,
+      backSpeed: 50,
+      showCursor: false,
+      loop: false,
+      loopCount: Infinity,
+    };
+
+    typed.current = new Typed(el.current, options);
+  });
   return (
     <div className="profile-container">
       <div className="profile-parent">
@@ -15,9 +37,7 @@ export default function Profile() {
           </div>
           <div className="profile-detail-role">
             <span className="primary-text">
-              {}
-              Web Programmer
-              <h1>{}</h1>
+              <h1 style={{ whiteSpace: 'pre' }} ref={el}></h1>
               <span className="profile-role-tagline">
                 Build and Develop frontend & backend web application. <br />I
                 can help everyone build their business. <br /> it`s such a

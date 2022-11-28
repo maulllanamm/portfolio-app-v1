@@ -28,7 +28,7 @@
 
 .profile-detail-role h1 {
   font-size: 40px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: monospace;
 }
 
 .primary-text {
@@ -40,7 +40,7 @@
 }
 
 .profile-role-tagline {
-  font-size: 19px;
+  font-size: 16px;
   margin: 5px 0 0 0;
   font-family: 'Poppins Light';
 }
@@ -85,7 +85,6 @@ img:nth-child(3) {
 
 .header-container {
   width: 200px;
-  margin-bottom: 50px;
 }
 
 .header-parent {
