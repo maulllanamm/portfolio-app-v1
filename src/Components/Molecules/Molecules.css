@@ -60,7 +60,6 @@
 .profile-picture {
   width: 500px;
   height: 500px;
-
   position: relative;
 }
 img:first-child {
@@ -80,4 +79,26 @@ img:nth-child(3) {
   right: 0;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Header */
+
+.header-container {
+  width: 200px;
+  margin-bottom: 50px;
+}
+
+.header-parent {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.header-parent h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.header-parent p {
+  font-size: 16px;
+  font-weight: 200;
 }

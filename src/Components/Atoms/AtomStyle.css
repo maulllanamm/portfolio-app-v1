@@ -41,6 +41,54 @@
   background-color: #0f172a;
 }
 
+/* Header line */
+.headerline-line {
+  width: 200px;
+  height: 5px;
+  border-radius: 30px;
+  background-color: white;
+  position: relative;
+}
+
+.headerline-center {
+  width: 50px;
+  height: 15px;
+  background-color: #38bdf8;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+/* Card */
+
+.card {
+  background: #3e6296;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  min-width: 200px;
+  color: #fff !important;
+}
+
+.card h3 {
+  min-height: 64px;
+  font-weight: 600;
+}
+
+.card h3,
+.card p {
+  margin-bottom: 0.5rem;
+}
+
+/* .card:hover {
+  background: linear-gradient(180deg, #ff7686 0%, #d72f93 100%);
+  transform: scale(1.2);
+  border-radius: 0.75rem;
+} */
+
 /* Item */
 
 .item {
