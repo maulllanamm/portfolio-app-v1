@@ -114,13 +114,68 @@
 }
 
 /* Profile picture */
-
 .profile-picture {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-picture img {
+  width: 400px;
+  position: relative;
+  bottom: 70px;
+}
+
+/* profile icon */
+
+.profile-icon {
   position: relative;
 }
-img:first-child {
+
+.react-icon {
+  border: 2px solid #38bdf8;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 430px;
+  bottom: 160px;
+  animation: float 6s ease-in-out infinite;
+}
+.node-icon {
+  border: 2px solid #89bb3c;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 380px;
+
+  animation: float 6s ease-in-out infinite;
+}
+.php-icon {
+  border: 2px solid #4b568c;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 700px;
+  bottom: 35px;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+/* img:first-child {
   width: 500px;
   position: absolute;
   right: 100px;
@@ -137,7 +192,7 @@ img:nth-child(3) {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /* Header */
 

@@ -89,6 +89,14 @@
   border-radius: 0.75rem;
 } */
 
+/* icons */
+
+.ReactIcon,
+.NodeIcon,
+.PhpIcon {
+  line-height: 100px;
+}
+
 /* Item */
 
 .item {

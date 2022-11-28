@@ -1,12 +1,12 @@
 import React from 'react';
 import './AtomStyle.css';
-import { CodeSlash } from 'react-bootstrap-icons';
+import { BiCodeAlt } from '@react-icons/all-files/bi/BiCodeAlt';
 import PropTypes from 'prop-types';
 
 function Card({ title, position, date }) {
   return (
     <div className="card">
-      <CodeSlash size={72} />
+      <BiCodeAlt size={90} />
       <h3>{title}</h3>
       <p>{position}</p>
       <p>{date}</p>
