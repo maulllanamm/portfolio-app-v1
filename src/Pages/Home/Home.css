@@ -1,7 +1,9 @@
 .home-container {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
   min-height: 670px;
   /* background-color: #10172a; */
   background-image: url('../../Assets/Image/bg.jpg');
