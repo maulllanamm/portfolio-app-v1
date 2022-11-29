@@ -3,10 +3,8 @@
   align-items: center;
   text-align: center;
   justify-content: space-around;
-  min-height: 500px;
-  background-color: #10172a;
-  /* border: 1px solid white; */
-  /* background-image: url('../../Assets/Image/bg.jpg'); */
+  min-height: 670px;
+  background-color: var(--background-one);
 }
 
 .item {

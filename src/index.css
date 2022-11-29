@@ -1,50 +1,62 @@
 @font-face {
-  font-family: 'Poppins Medium';
+  font-family: 'Inter Black';
   font-style: normal;
   font-weight: normal;
-  src: url('./Assets/Fonts/Poppins-Medium.ttf');
+  src: url('./Assets/Fonts/Inter-Black.ttf');
 }
 
 @font-face {
-  font-family: 'Poppins Regular';
+  font-family: 'Inter Bold';
   font-style: normal;
   font-weight: normal;
-  src: url('./Assets/Fonts/Poppins-Regular.ttf');
+  src: url('./Assets/Fonts/Inter-Bold.ttf');
 }
 
 @font-face {
-  font-family: 'Poppins SemiBold';
+  font-family: 'Inter ExtraBold';
   font-style: normal;
   font-weight: normal;
-  src: url('./Assets/Fonts/Poppins-SemiBold.ttf');
+  src: url('./Assets/Fonts/Inter-ExtraBold.ttf');
 }
 
 @font-face {
-  font-family: 'Poppins Bold';
+  font-family: 'Inter ExtraLight';
   font-style: normal;
   font-weight: normal;
-  src: url('./Assets/Fonts/Poppins-Bold.ttf');
+  src: url('./Assets/Fonts/Inter-ExtraLight.ttf');
 }
 
 @font-face {
-  font-family: 'Poppins ExtraBold';
+  font-family: 'Inter Light';
   font-style: normal;
   font-weight: normal;
-  src: url('./Assets/Fonts/Poppins-ExtraBold.ttf');
+  src: url('./Assets/Fonts/Inter-Light.ttf');
 }
 
 @font-face {
-  font-family: 'Poppins Light';
+  font-family: 'Inter Medium';
   font-style: normal;
   font-weight: normal;
-  src: url('./Assets/Fonts/Poppins-Light.ttf');
+  src: url('./Assets/Fonts/Inter-Medium.ttf');
 }
 
 @font-face {
-  font-family: 'Poppins Thin';
+  font-family: 'Inter Regular';
   font-style: normal;
   font-weight: normal;
-  src: url('./Assets/Fonts/Poppins-Thin.ttf');
+  src: url('./Assets/Fonts/Inter-Regular.ttf');
+}
+@font-face {
+  font-family: 'Inter SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./Assets/Fonts/Inter-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'Inter Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./Assets/Fonts/Inter-Thin.ttf');
 }
 
 * {
@@ -54,7 +66,7 @@
 body {
   margin: 0;
   overflow-y: overlay;
-  font-family: 'Poppins Regular';
+  font-family: 'Inter Regular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

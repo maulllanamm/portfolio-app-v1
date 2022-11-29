@@ -1,11 +1,8 @@
 :root {
-  --white: #ffffff;
-  --black: #000000;
-  --dark-blue: #131b30;
-
-  --light-blue-gradient: linear-gradient(
-    90.55deg,
-    #256bf4 -13.39%,
-    #38bdf8 99.74%
-  );
+  --background-one: #16161a;
+  --background-two: #242629;
+  --card: #16161a;
+  --purple: #7f5af0;
+  --white: #fffffe;
+  --grey: #94a1b2;
 }

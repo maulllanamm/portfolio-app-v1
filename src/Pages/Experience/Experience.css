@@ -5,7 +5,7 @@
   justify-content: space-evenly;
   align-items: center;
   min-height: 670px;
-  background-color: rgb(20, 28, 51);
+  background-color: var(--background-two);
 }
 
 .experience-parent {
@@ -16,5 +16,5 @@
   min-width: 1200px;
   border-radius: 10px;
   padding: 30px 0 30px 0;
-  background-color: rgb(21, 30, 56);
+  background-color: var(--background-two);
 }

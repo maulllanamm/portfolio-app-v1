@@ -10,7 +10,8 @@ export default function Profile() {
         <div className="profile-detail">
           <div className="profile-detail-name">
             <span className="primary-text">
-              Hi, I am <span className="highlight-text">Maulana Muhammad</span>
+              Hallo, I am{' '}
+              <span className="highlight-text">Maulana Muhammad</span>
             </span>
           </div>
           <div className="profile-detail-role">
@@ -30,7 +31,7 @@ export default function Profile() {
               </h1>
               <span className="profile-role-tagline">
                 Build and Develop frontend & backend web application. <br />I
-                can help everyone build their business. <br /> it`s such a
+                can help everyone build their business. <br /> it's such a
                 happiness for me. so, let me help you!
               </span>
             </span>
