@@ -13,13 +13,13 @@ export default function Icons({ icons }) {
   } else if (icons === 'node') {
     return (
       <div className="icons">
-        <FaNodeJs size={40} color="#89BB3C" />;
+        <FaNodeJs size={40} color="#89BB3C" />
       </div>
     );
   } else {
     return (
       <div className="icons">
-        <DiPhp size={40} color="#4B568C" />;
+        <DiPhp size={40} color="#4B568C" />
       </div>
     );
   }

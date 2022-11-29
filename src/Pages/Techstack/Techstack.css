@@ -5,13 +5,8 @@
   justify-content: space-evenly;
   align-items: center;
   min-height: 670px;
-  background-color: #10172a;
-}
-
-.techstack-header {
-  border: 1px solid white;
+  background-color: var(--background-one);
 }
 
 .techstack-body {
-  border: 1px solid white;
 }

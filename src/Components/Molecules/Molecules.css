@@ -141,6 +141,7 @@
   border-radius: 50%;
   width: 70px;
   height: 70px;
+  line-height: 100px;
   animation: float 6s ease-in-out infinite;
 }
 
@@ -212,4 +213,27 @@ img:nth-child(3) {
   color: var(--grey);
   font-family: 'Inter Medium';
   font-size: 16px;
+}
+
+/* Cardskill */
+.cardskill-container {
+  display: flex;
+  font-family: 'Inter Medium';
+  color: var(--white);
+}
+
+.cardskill-body {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+}
+
+.cardskill-icon {
+  padding: 8px;
+}
+
+.cardskill-skill p {
+  font-family: 'Inter Light';
+  font-size: 14px;
 }
