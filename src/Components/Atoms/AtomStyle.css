@@ -91,9 +91,7 @@
 
 /* icons */
 
-.ReactIcon,
-.NodeIcon,
-.PhpIcon {
+.icons {
   line-height: 100px;
 }
 
