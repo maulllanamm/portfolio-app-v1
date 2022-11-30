@@ -11,8 +11,6 @@ export default function Techstack() {
       </div>
       <div className="techstack-body">
         <CardTechStack />
-        {/* <div className="techstack-card-one">1</div>
-        <div className="techstack-card-two">2</div> */}
       </div>
     </div>
   );

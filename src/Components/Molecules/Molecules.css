@@ -197,6 +197,7 @@ img:nth-child(3) {
 
 .header-container {
   width: 200px;
+  height: 200px;
 }
 
 .header-parent {
